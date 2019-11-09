@@ -5,9 +5,9 @@ Autor: Tomas Ramirez
 Fecha: 9/11/2019
 """
 
-clase Punto(object):
+class Punto(object):
     #Metodo constructor
-    def__init__(self,valorX,valorY):
+    def __init__(self,valorX,valorY):
         #Creamos los actributos
         self.x=valorX
         self.y=valorY
