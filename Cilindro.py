@@ -12,8 +12,8 @@ class Cilindro(Circunferencia):
         #Acturalizamos atributos del cilindro
         self.altura=valtura
         #Actualizamos las 
-        Circunferencia.__init__(self,vradio)
-        Punto.__init__(self,valorX,valorY)
+        Circunferencia.__init__(self,vradio,valorX,valorY)
+       
 
     #Metodo get altura
     def getAltura(self):
